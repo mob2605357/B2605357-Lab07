@@ -312,14 +312,15 @@ def build_docx():
     p = doc.add_paragraph("Các công việc được phân bổ theo từng tuần, có thời gian thực hiện cụ thể và nhắc hẹn trên Google Calendar.")
 
     doc.add_page_break()
-    add_title_block(doc, "BÀI 4", "Kế hoạch dự án nhóm", "Nhóm chọn Dự án 4 trong danh sách mẫu và lập kế hoạch phát triển website quản lý chi tiêu cá nhân theo nhiều vòng lặp.")
+    add_title_block(doc, "BÀI 4", "Kế hoạch Dự án 4", "Dự án phát triển và giới thiệu ứng dụng quản lý chi tiêu cá nhân được lập kế hoạch trong 3 tuần, gồm 4 tính năng và 3 vòng phát triển. Thành viên duy nhất là Trần Ngọc Mơ.")
     doc.add_picture(str(SCREENS / "kanban.png"), width=Cm(16.9))
-    add_caption(doc, "Hình 4  Bảng Kanban kế hoạch và phân công dự án")
-    add_docx_table(doc, ["Thành viên", "Trách nhiệm chính", "Sản phẩm phụ trách"], [
-        ("Trần Ngọc Mơ", "Điều phối, giao diện và tài liệu", "Phạm vi, giao diện chính, biểu đồ và hướng dẫn"),
-        ("Thành viên 2", "Dữ liệu và xử lý nghiệp vụ", "Cấu trúc dữ liệu, giao dịch và bộ lọc"),
-        ("Cả nhóm", "Kiểm thử và rà soát", "Tiêu chí kiểm thử, tích hợp và demo"),
-    ], [3.3, 6.2, 7.3])
+    add_caption(doc, "Hình 4  Bảng Kanban kế hoạch thực hiện và phân công nhiệm vụ")
+    add_docx_table(doc, ["Giai đoạn", "Nhiệm vụ và sản phẩm dự kiến", "Người phụ trách"], [
+        ("Tuần 1", "Dùng AI động não, lập dàn ý 4 tính năng, 3 vòng phát triển, mã ban đầu, GitHub và tài liệu kế hoạch", "Trần Ngọc Mơ"),
+        ("Tuần 2", "Phát triển nhiều phiên bản, báo cáo nháp 5–10 trang và video demo 4–10 phút", "Trần Ngọc Mơ"),
+        ("Tuần 3", "Tạo 5–10 slide, báo cáo PDF/DOCX, trang phản ánh về công cụ AI, trình bày và trả lời câu hỏi", "Trần Ngọc Mơ"),
+    ], [3.0, 10.1, 3.7])
+    doc.add_paragraph("Bài 4 chỉ dừng ở bước lập kế hoạch và phân công; chưa yêu cầu hoàn thành dự án.")
 
     for paragraph in doc.paragraphs:
         style_paragraph_runs(paragraph)
@@ -463,12 +464,12 @@ def build_pdf():
         ("26–31/10", "Hoàn thiện Lab 07 và tổng kết", "Bộ bài nộp và kế hoạch tháng mới"),
     ], [32 * mm, 76 * mm, 66 * mm]), Spacer(1, 3 * mm), Paragraph("Các công việc được phân bổ theo từng tuần, có thời gian thực hiện cụ thể và nhắc hẹn trên Google Calendar.", PDF_STYLES["body"])]
 
-    story += [PageBreak(), Paragraph("BÀI 4", PDF_STYLES["eyebrow"]), Paragraph("Kế hoạch dự án nhóm", PDF_STYLES["h1"]), Paragraph("Nhóm chọn Dự án 4 trong danh sách mẫu và lập kế hoạch phát triển website quản lý chi tiêu cá nhân theo nhiều vòng lặp.", PDF_STYLES["intro"]), scaled_image(SCREENS / "kanban.png", 174 * mm, 108 * mm), Paragraph("Hình 4  Bảng Kanban kế hoạch và phân công dự án", PDF_STYLES["caption"])]
-    story += [pdf_table(["Thành viên", "Trách nhiệm chính", "Sản phẩm phụ trách"], [
-        ("Trần Ngọc Mơ", "Điều phối, giao diện và tài liệu", "Phạm vi, giao diện chính, biểu đồ và hướng dẫn"),
-        ("Thành viên 2", "Dữ liệu và xử lý nghiệp vụ", "Cấu trúc dữ liệu, giao dịch và bộ lọc"),
-        ("Cả nhóm", "Kiểm thử và rà soát", "Tiêu chí kiểm thử, tích hợp và demo"),
-    ], [35 * mm, 62 * mm, 77 * mm])]
+    story += [PageBreak(), Paragraph("BÀI 4", PDF_STYLES["eyebrow"]), Paragraph("Kế hoạch Dự án 4", PDF_STYLES["h1"]), Paragraph("Dự án phát triển và giới thiệu ứng dụng quản lý chi tiêu cá nhân được lập kế hoạch trong 3 tuần, gồm 4 tính năng và 3 vòng phát triển. Thành viên duy nhất là Trần Ngọc Mơ.", PDF_STYLES["intro"]), scaled_image(SCREENS / "kanban.png", 174 * mm, 108 * mm), Paragraph("Hình 4  Bảng Kanban kế hoạch thực hiện và phân công nhiệm vụ", PDF_STYLES["caption"])]
+    story += [pdf_table(["Giai đoạn", "Nhiệm vụ và sản phẩm dự kiến", "Người phụ trách"], [
+        ("Tuần 1", "Dùng AI động não, lập dàn ý 4 tính năng, 3 vòng phát triển, mã ban đầu, GitHub và tài liệu kế hoạch", "Trần Ngọc Mơ"),
+        ("Tuần 2", "Phát triển nhiều phiên bản, báo cáo nháp 5–10 trang và video demo 4–10 phút", "Trần Ngọc Mơ"),
+        ("Tuần 3", "Tạo 5–10 slide, báo cáo PDF/DOCX, trang phản ánh về công cụ AI, trình bày và trả lời câu hỏi", "Trần Ngọc Mơ"),
+    ], [30 * mm, 102 * mm, 42 * mm]), Spacer(1, 3 * mm), Paragraph("Bài 4 chỉ dừng ở bước lập kế hoạch và phân công; chưa yêu cầu hoàn thành dự án.", PDF_STYLES["body"])]
 
     pdf.build(story)
 

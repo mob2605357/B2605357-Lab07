@@ -1,12 +1,11 @@
 Name,Description,List,Member,Due Date,Labels
-Chốt ba vòng lặp,"Vòng 1: nhập giao dịch; vòng 2: lọc và ngân sách; vòng 3: biểu đồ và hoàn thiện.",Hoàn thành,Cả nhóm,2026-10-01,Quản lý
-Thống nhất vai trò,"Chốt người phụ trách, kênh trao đổi và lịch họp tuần.",Hoàn thành,Cả nhóm,2026-10-01,Quản lý
-Tạo bảng công việc,"Thiết lập cột, nhãn, hạn hoàn thành và người phụ trách.",Hoàn thành,Trần Ngọc Mơ,2026-10-02,Quản lý
-Xác định phạm vi,"Ghi nhận thu chi, phân loại và báo cáo theo tháng.",Ý tưởng,Trần Ngọc Mơ,2026-10-03,Phân tích
-Thiết kế cấu trúc dữ liệu,"Giao dịch, danh mục và ngân sách.",Ý tưởng,Thành viên 2,2026-10-05,Dữ liệu
-Phác thảo giao diện,"Màn hình tổng quan và biểu mẫu nhập.",Ý tưởng,Trần Ngọc Mơ,2026-10-06,Thiết kế
-Dựng giao diện chính,"Responsive, điều hướng bàn phím và kiểm tra dữ liệu nhập.",Cần làm,Trần Ngọc Mơ,2026-10-15,Frontend
-Xây dựng xử lý giao dịch,"Thêm, sửa, xóa và lọc theo thời gian.",Cần làm,Thành viên 2,2026-10-18,Backend
-Hoàn thiện biểu đồ,"Cơ cấu chi tiêu và tiến độ ngân sách.",Cần làm,Trần Ngọc Mơ,2026-10-20,Thiết kế
-Lập tiêu chí kiểm thử,"Luồng chính, dữ liệu biên và kiểm tra trên điện thoại.",Đang thực hiện,Cả nhóm,2026-10-24,Kiểm thử
-Soạn hướng dẫn sử dụng,"Mô tả chức năng và minh họa thao tác.",Đang thực hiện,Trần Ngọc Mơ,2026-10-26,Tài liệu
+Xác định 4 tính năng,"Dùng AI để động não; lập dàn ý: ghi thu chi, phân loại, ngân sách, lọc và biểu đồ.",Tuần 1 - Lập kế hoạch,Trần Ngọc Mơ,2026-10-01,Ý tưởng
+Lập 3 phiên bản,"V1 nhập giao dịch; V2 lọc và ngân sách; V3 biểu đồ; không tạo bằng một chỉ dẫn duy nhất.",Tuần 1 - Lập kế hoạch,Trần Ngọc Mơ,2026-10-03,Vòng lặp
+Khởi tạo mã nguồn,"Nghiên cứu, viết mã ban đầu, dùng Git và GitHub; lập tài liệu tính năng và kế hoạch.",Tuần 1 - Lập kế hoạch,Trần Ngọc Mơ,2026-10-07,GitHub
+Phát triển nhiều phiên bản,"Thực hiện 3 vòng phát triển và lưu lịch sử commit cho từng lần bổ sung tính năng.",Tuần 2 - Phát triển,Trần Ngọc Mơ,2026-10-10,Ứng dụng
+Viết báo cáo nháp,"Trình bày quy trình và lịch sử phát triển trong báo cáo dự kiến dài 5-10 trang.",Tuần 2 - Phát triển,Trần Ngọc Mơ,2026-10-12,Báo cáo
+Chuẩn bị video demo,"Lập kịch bản, quay video giới thiệu 4-10 phút và dự kiến tải lên YouTube.",Tuần 2 - Phát triển,Trần Ngọc Mơ,2026-10-14,Video
+Tạo 5-10 slide,"Trình bày quá trình phát triển, các tính năng qua từng phiên bản và cách sử dụng công cụ AI.",Tuần 3 - Hoàn thiện,Trần Ngọc Mơ,2026-10-17,Slide
+Hoàn thiện bộ tài liệu,"Chuẩn bị PDF/DOCX, liên kết GitHub có lịch sử commit và một trang phản ánh.",Tuần 3 - Hoàn thiện,Trần Ngọc Mơ,2026-10-19,Hồ sơ
+Lập kế hoạch demo,"Demo ứng dụng, chiếu video, trình bày quy trình phát triển và chuẩn bị trả lời câu hỏi.",Tuần 3 - Hoàn thiện,Trần Ngọc Mơ,2026-10-21,Trình bày
+Xác nhận phạm vi Bài 4,"Chỉ lập kế hoạch và phân công; chưa yêu cầu hoàn thành dự án.",Phân công và đầu ra,Trần Ngọc Mơ,2026-10-21,Phạm vi

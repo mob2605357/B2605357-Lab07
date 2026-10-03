@@ -13,7 +13,7 @@
 - `automation/Code.gs`: tạo hai Google Forms, trigger đóng form và Google Calendar tháng 10/2026.
 - `calendar/KeHoachThang10-2026.ics`: lịch có thể nhập trực tiếp vào Google Calendar.
 - `project/trello-import.csv`: dữ liệu kế hoạch dự án để nhập hoặc sao chép sang Trello.
-- Bài 4 chọn **Dự án 4 - Phát triển và giới thiệu một ứng dụng đơn giản**, với đề tài website quản lý chi tiêu cá nhân.
+- Bài 4 chọn **Dự án 4 - Phát triển và giới thiệu một ứng dụng đơn giản**, với đề tài website quản lý chi tiêu cá nhân. Thành viên duy nhất là **Trần Ngọc Mơ**, phụ trách toàn bộ kế hoạch.
 - `site/`: mã nguồn website cá nhân tương thích GitHub Pages.
 
 ## Thông tin sinh viên
