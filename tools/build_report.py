@@ -292,7 +292,7 @@ def build_docx():
         ("Lĩnh vực chuyên môn", "Truyền thông đa phương tiện, nội dung số và công cụ cộng tác"),
         ("Kinh nghiệm và sản phẩm", "Google Forms, Google Calendar, website cá nhân và kế hoạch dự án Lab 07"),
     ], [5.0, 11.8])
-    p = doc.add_paragraph("Đường dẫn công khai: https://codeezforme.github.io/B2605357-Lab07/")
+    p = doc.add_paragraph("Đường dẫn công khai: https://mob2605357.github.io/B2605357-Lab07/")
     for r in p.runs:
         set_run_font(r)
         r.font.color.rgb = RGBColor.from_string(CYAN)
@@ -452,7 +452,7 @@ def build_pdf():
         ("Quá trình học", "Sinh viên khóa 52, lớp 26D1A2, mã sinh viên B2605357"),
         ("Lĩnh vực chuyên môn", "Truyền thông đa phương tiện, nội dung số và công cụ cộng tác"),
         ("Kinh nghiệm và sản phẩm", "Google Forms, Google Calendar, website cá nhân và kế hoạch dự án Lab 07"),
-    ], [48 * mm, 126 * mm]), Spacer(1, 3 * mm), Paragraph("Đường dẫn công khai: <font color='#12B8C4'><b>https://codeezforme.github.io/B2605357-Lab07/</b></font>", PDF_STYLES["body"])]
+    ], [48 * mm, 126 * mm]), Spacer(1, 3 * mm), Paragraph("Đường dẫn công khai: <font color='#12B8C4'><b>https://mob2605357.github.io/B2605357-Lab07/</b></font>", PDF_STYLES["body"])]
 
     story += [PageBreak(), Paragraph("BÀI 3", PDF_STYLES["eyebrow"]), Paragraph("Kế hoạch công việc tháng 10 năm 2026", PDF_STYLES["h1"]), Paragraph("Kế hoạch được tổ chức theo tuần, kết hợp ghi chú, danh sách việc cần làm và lịch có nhắc hẹn.", PDF_STYLES["intro"]), scaled_image(SCREENS / "calendar-google.png", 174 * mm, 122 * mm), Paragraph("Hình 3  Google Calendar thực tế với kế hoạch tháng 10 năm 2026", PDF_STYLES["caption"])]
     story += [pdf_table(["Tuần", "Trọng tâm", "Kết quả cần đạt"], [

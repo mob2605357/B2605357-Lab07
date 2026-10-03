@@ -4,7 +4,7 @@
 
 - Google Form thông tin sinh viên khóa 52: <https://docs.google.com/forms/d/e/1FAIpQLSfuO2F1zXUrdFDsUMXxjWhKi2DJib9zZKxY6fr-_ViJ5AbT3g/viewform>
 - Google Form đăng ký tham quan Công ty TMA: <https://docs.google.com/forms/d/e/1FAIpQLSfdchI9zqLBaCGUWR7KyrDD-sDHZjt9ZvmN2Nzwr3MAwR7LxQ/viewform>
-- Website giới thiệu bản thân: <https://codeezforme.github.io/B2605357-Lab07/>
+- Website giới thiệu bản thân: <https://mob2605357.github.io/B2605357-Lab07/>
 
 ## Tệp chính
 
